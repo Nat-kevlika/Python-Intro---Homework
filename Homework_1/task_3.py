@@ -16,4 +16,3 @@ print("perimeter of the triagle is: ", p)
 print("area of the triangle is: ", A)
 
 # ზოგ შემთხვევაში მუშაობს, ზოგ შემთხვევაში არა :/ 
-# მაგ რიცხვებზე: 4, 3.5, 1 მუშაობს და 
