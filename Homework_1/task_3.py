@@ -15,4 +15,3 @@ A = math.sqrt(s * (s - a) * (s - b) * (s - c))
 print("perimeter of the triagle is: ", p)
 print("area of the triangle is: ", A)
 
-# ზოგ შემთხვევაში მუშაობს, ზოგ შემთხვევაში არა :/ 
