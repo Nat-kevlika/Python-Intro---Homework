@@ -3,6 +3,6 @@ import random
 x = random.uniform(1, 100)
 y = random.uniform(1, 100)
 
-Numb = x ** y
+result_numb = x ** y
 
-print("Numb", Numb)
+print("result_numb", result_numb)
