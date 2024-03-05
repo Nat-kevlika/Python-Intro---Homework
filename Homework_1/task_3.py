@@ -10,8 +10,8 @@ c = float(input("The length of side c : "))
 
 p = a + b + c
 s = (a + b + c) / 2
-A = math.sqrt(s * (s - a) * (s - b) * (s - c))
+area = math.sqrt(s * (s - a) * (s - b) * (s - c))
 
 print("perimeter of the triagle is: ", p)
-print("area of the triangle is: ", A)
+print("area of the triangle is: ", area)
 
