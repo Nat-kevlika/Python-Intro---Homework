@@ -3,3 +3,4 @@ for i in range(1, 10):
         namravli = i * j
         print(i, "*", j, "=", namravli, end=", ")
     print()
+

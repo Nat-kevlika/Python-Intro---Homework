@@ -13,3 +13,4 @@ if 0 < n < 50:
         print(str(i) + " - " + gamyofebi_str)
 else:
     print("შეყვანილი რიცხვი არაა მოცემულ შუალედში")
+
