@@ -9,3 +9,4 @@ birthday = datetime.date(year_of_birth, month_of_birth, day_of_birth)
 day_of_week = birthday.strftime("%A")
 
 print("You were born on a", day_of_week + ".")
+

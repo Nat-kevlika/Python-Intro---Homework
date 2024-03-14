@@ -1,8 +1,8 @@
 import random
 
-x = random.uniform(1, 100)
-y = random.uniform(1, 100)
+x = int(input("Please enter number between 1 and 100: "))
+y = int(input("Please enter number between 1 and 100: "))
 
-result_numb = x ** y
+result_numb = (x ** y)
 
 print("result_numb", result_numb)
