@@ -9,11 +9,10 @@ elif car_speed < 120:
 else:
     category = "VERY FAST"
 
-if 30 <= car_speed < 60 and 60 <= car_speed < 120:
-    category = "FAST"
-elif 120 <= car_speed:
-    category = "VERY FAST"
+# if 30 <= car_speed < 60 and 60 <= car_speed < 120:
+#     category = "FAST"
+# elif 120 <= car_speed:
+#     category = "VERY FAST"
 
 print("Car's speed category:", category)
-
 

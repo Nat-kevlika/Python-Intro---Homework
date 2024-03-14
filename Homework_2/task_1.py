@@ -3,3 +3,4 @@ if word == "True":
     print("Whoala")
 else:
     print("Not Whoala")
+
