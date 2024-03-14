@@ -13,6 +13,3 @@ max_number = max(random_numbers)
 #print("შემთხვევითი (random) რიცხვებია: ", random_numbers) #თუ გვინდა დავინახოთ ეს რიცხვები
 print("მაქსიმალური რიცხვი არის: ", max_number)
 
-
-
-
