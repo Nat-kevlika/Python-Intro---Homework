@@ -19,3 +19,4 @@ xmovani = "aAeEiIoOuU"
 for c in a:
     if c not in xmovani:
         print(c, end="")
+
