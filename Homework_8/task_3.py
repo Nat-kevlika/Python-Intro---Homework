@@ -3,7 +3,7 @@ a = input("Enter a word: ")
 
 counter = 0
 while counter < 5:
-    if len(a) % 2 == 0:  # If the len(a is even
+    if len(a) % 2 == 0:
         middle_left = len(a) // 2 - 1
         middle_right = len(a) // 2
         print(a[middle_left], a[middle_right])
