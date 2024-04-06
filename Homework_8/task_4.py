@@ -18,10 +18,6 @@ else:
 
 output_text = ""
 for c in text:
-    if c == " ":
-        output_text += c
-        continue
-
     found = False
     for line in [line_1, line_2, line_3]:
         if c in line:

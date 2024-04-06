@@ -1,22 +1,22 @@
 ### version_1 #########
 a = input("Enter a word: ")
 
-xmovani = "aAeEiIoOuU"
+vowel = "aAeEiIoOuU"
 
 for c in a:
-    tanxmovani = True
-    if c in xmovani:
-        tanxmovani = False
-    if tanxmovani:
+    Consonant = True
+    if c in vowel:
+        Consonant = False
+    if Consonant:
         print(c, end='')
 
 
 # ### version- 2 #####
 a = input("Enter a word: ")
 
-xmovani = "aAeEiIoOuU"
+vowel = "aAeEiIoOuU"
 
 for c in a:
-    if c not in xmovani:
+    if c not in vowel:
         print(c, end="")
 
