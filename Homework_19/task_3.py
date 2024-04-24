@@ -1,6 +1,6 @@
 friendships = {}
 
-print("Enter friendships : 'Friend1 - Friend2' or FINISH")
+print("Enter friendships : 'Friend1 - Friend2' and than 'FINISH'")
 while True:
     friendship = input("Friendship: ")
     if friendship == 'FINISH':
@@ -20,7 +20,7 @@ for friend, friends_list in friendships.items():
 def input_friendships():
     friendships = {}
 
-    print("Enter friendships : 'Friend1 - Friend2' or FINISH")
+    print("Enter friendships : 'Friend1 - Friend2' and than 'FINISH'")
     while True:
         friendship = input("Friendship: ")
         if friendship == 'FINISH':
