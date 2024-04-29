@@ -1,18 +1,18 @@
-friendships = {}
-
-print("Enter friendships : 'Friend1 - Friend2' and than 'FINISH'")
-while True:
-    friendship = input("Friendship: ")
-    if friendship == 'FINISH':
-        break
-
-    friend1, friend2 = friendship.split(' - ')
-    friendships[friend1] = friendships.get(friend1, []) + [friend2]
-    friendships[friend2] = friendships.get(friend2, []) + [friend1]
-
-print("Friendships:")
-for friend, friends_list in friendships.items():
-    print(f"{friend} - {', '.join(friends_list)}")
+# friendships = {}
+#
+# print("Enter friendships : 'Friend1 - Friend2' and than 'FINISH'")
+# while True:
+#     friendship = input("Friendship: ")
+#     if friendship == 'FINISH':
+#         break
+#
+#     friend1, friend2 = friendship.split(' - ')
+#     friendships[friend1] = friendships.get(friend1, []) + [friend2]
+#     friendships[friend2] = friendships.get(friend2, []) + [friend1]
+#
+# print("Friendships:")
+# for friend, friends_list in friendships.items():
+#     print(f"{friend} - {', '.join(friends_list)}")
 
 
 ######### VERSION 2 (using def) ##############
