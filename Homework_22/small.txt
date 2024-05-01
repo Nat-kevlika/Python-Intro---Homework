@@ -1,0 +1,3 @@
+David,  Pen, 5, 1.0
+Nino,  Calculator, 1, 9.99
+Eka,  Pencil, 2, 3.5

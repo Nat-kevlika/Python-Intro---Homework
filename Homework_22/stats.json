@@ -1,0 +1,15 @@
+{
+    "max_purch_users": [
+        "David"
+    ],
+    "max_purch_amount": 5,
+    "max_purch_customers": [
+        "Sophia"
+    ],
+    "max_purch_value": 20.0,
+    "mean_purch_cost": 12.414444444444445,
+    "mean_purch_quantity": 2.0,
+    "max_sales_products": [
+        "Pen"
+    ]
+}
