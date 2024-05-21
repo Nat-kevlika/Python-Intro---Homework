@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7754447-dc5f-41c5-9d38-70b2ee95df1b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Homework_25/Homework_25/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework_25/Homework_25/task_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +55,7 @@
     "Python.task_2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Homework__19",
+    "git-widget-placeholder": "Homework__25",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -237,7 +239,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/task_1_py$task_2.coverage" NAME="task_2 Coverage Results" MODIFIED="1714243008062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework_21" />
     <SUITE FILE_PATH="coverage/task_1_py$task_1.coverage" NAME="task_1 Coverage Results" MODIFIED="1714240266809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework_21" />
-    <SUITE FILE_PATH="coverage/task_3_py$task_1.coverage" NAME="task_1 Coverage Results" MODIFIED="1711560877315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework_10_11" />
     <SUITE FILE_PATH="coverage/task_3_py$task_2.coverage" NAME="task_2 Coverage Results" MODIFIED="1711561970099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework_10_11" />
+    <SUITE FILE_PATH="coverage/task_3_py$task_1.coverage" NAME="task_1 Coverage Results" MODIFIED="1716313283525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework_25/Homework_25" />
   </component>
 </project>
