@@ -1,7 +1,6 @@
 import json
-import os
 
-def read_json_file(filename='dep_data.json'):
+def load_json_file(filename='dep_data.json'):
     try:
         with open(filename, 'r') as file:
             return json.load(file)
@@ -25,23 +24,23 @@ class Department:
         self.description = description
         self.employees = [Employee(**emp) for emp in employees]
 
-    def average(self):
+    def calc_average_salary(self):
         if not self.employees:
             return 0
         total_salary = sum(emp.salary for emp in self.employees)
         return total_salary / len(self.employees)
 
-    def max(self):
+    def find_max_salary(self):
         if not self.employees:
             return 0
         return max(emp.salary for emp in self.employees)
 
-    def min(self):
+    def find_min_salary(self):
         if not self.employees:
             return 0
         return min(emp.salary for emp in self.employees)
 
-    def positions(self):
+    def count_positions(self):
         position_count = {}
         for emp in self.employees:
             if emp.position in position_count:
@@ -52,20 +51,21 @@ class Department:
 
 def main():
     file_path = 'dep_data.json'
-    data = read_json_file(file_path)
+    data = load_json_file(file_path)
 
     if data is None:
         return
+
     departments = []
 
     for key, value in data.items():
         department = Department(value['name'], value['description'], value['employees'])
         departments.append(department)
         print(f"Department: {department.name}")
-        print(f"  Average Salary: {department.average()}")
-        print(f"  Max Salary: {department.max()}")
-        print(f"  Min Salary: {department.min()}")
-        print(f"  Positions: {department.positions()}")
+        print(f"  Average Salary: {department.calc_average_salary()}")
+        print(f"  Max Salary: {department.find_max_salary()}")
+        print(f"  Min Salary: {department.find_min_salary()}")
+        print(f"  Positions: {department.count_positions()}")
 
 if __name__ == "__main__":
     main()
