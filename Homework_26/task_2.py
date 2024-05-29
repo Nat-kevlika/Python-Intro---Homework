@@ -25,12 +25,12 @@ if __name__ == "__main__":
     q.insert(2)
     q.insert(3)
 
-    print("\nRemoving elements from the queue:")
+    print("\nRemoving elements:")
     print(q.pop())
     print(q.pop())
     print(q.pop())
 
-    print("\nAttempting to remove from an empty queue:")
+    print("\nTrying to remove element:")
     try:
         print(q.pop())
     except ValueError as e:
