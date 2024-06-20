@@ -1,0 +1,9 @@
+Ana, Book, 2, 8.5
+Elene, DVD, 1, 12.99
+David, Pen, 5, 1
+Natia, Notebook, 3, 4
+George, Earphones, 1, 15.75
+Nino, Calculator, 1, 9.99
+Sophia, Backpack, 1, 20
+Goga, Water Bottle, 2, 6
+Eka, Pencil, 2, 3.5
